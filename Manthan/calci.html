@@ -1,0 +1,39 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md"></div>
+      <div class="col col-md-6">
+  
+        <div class="spacer-0">
+          <h1 class="text-success">Profit & Loss Visual Calculator</h1>
+  
+          <div class="spacer-2">
+            <div class="form-group">
+              <label>Amount of sales ($)</label>
+              <input id="input-sales" type="number" 
+                     class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label>Amount of expenses ($)</label>
+              <input id="input-losses" type="number" 
+                     class="form-control" required />
+            </div>
+  
+            <div id="profit-n-loss-result" 
+                 class="alert alert-primary d-none"></div>
+  
+            <button id="calculator-profit-n-loss"
+                    class="btn btn-warning">
+              Calculate</button>
+  
+            <!-- Not functional in codepen --->
+            <!--
+            <button id="refresh-calculator"
+                    class="btn btn-danger text-white float-right">
+              Refresh</button>
+            -->
+          </div>
+        </div>
+      </div>
+      <div class="col-md greyed"></div>
+    </div>
+  </div>
